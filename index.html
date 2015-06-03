@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="css/jquery.nouislider.css" rel="stylesheet">
   <!-- end CSS-->
   <style>
 
@@ -46,9 +47,26 @@
     <h1 align="center">Visualizando Sentimiento</h1>
     </header>
     <div id="main" role="main">
-      <div id="sentiment" align="center"> 
-        <INPUT TYPE=BUTTON OnClick="chart.turnOffNeutrals();" VALUE="turn off neutrals"> 
+      <div style="display:inline-block; width: 30%;">
+        <INPUT TYPE=BUTTON OnClick="chart.changeMode('flat');" VALUE="1 órbita">
+        <INPUT TYPE=BUTTON OnClick="chart.changeMode('atomic');" VALUE="2 órbitas">
+        <INPUT TYPE=BUTTON OnClick="chart.changeMode('solar');" VALUE="3 órbitas"> 
+        <div id="radius-selector" style="max-width: 200px;" align="left">
+          <p>Radio Orbital:<p>
+          <div id="slider"></div>
+        </div>
+        <div id="speed-selector" style="max-width: 200px;" align="left">
+          <p>----------</p>
+          <p>Velocidad</p>
+          Positivo:
+          <div id="speed-pos" class="speed-slider"></div>
+          Neutral:
+          <div id="speed-neu" class="speed-slider"></div>
+          Negativo:
+          <div id="speed-neg" class="speed-slider"></div>
+        </div>
       </div>
+      <div id="sentiment" style="display: inline-block; margin: 0 1.5%; width: 70%;"></div>
       <h6 align="left">Key</h6>
       <div id="scaleKey"></div>
       <div id="colorKey"></div>
@@ -64,8 +82,10 @@
   
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
   <script src="js/CustomTooltip.js"></script>
+  <script src="js/libs/jquery-1.7.2.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script>
   <script src="js/libs/d3.layout.orbit.js"></script>
+  <script src="js/libs/jquery.nouislider.js"></script>
   <script src="js/sentiment.js"></script>
   <script>
     var chart = sentimentOrbit();
@@ -74,5 +94,33 @@
         .datum(data.data)
         .call(chart);
     });
+    
+    $('#slider').noUiSlider({
+    	start: 500,
+      connect: "lower", 
+    	range: {
+    		'min': 100,
+    		'max': 500
+    	}
+    });
+    
+    $("#slider").on("change", function(){
+      chart.changeRadius($("#slider").val());
+    });
+    
+    $('.speed-slider').noUiSlider({
+    	start: 1,
+      connect: "lower", 
+      step: 1,
+    	range: {
+    		'min': -3,
+    		'max': 3
+    	}
+    });
+    
+    $(".speed-slider").on("slide", function(){
+      chart.changeSpeed([$("#speed-neg").val(), $("#speed-neu").val(), $("#speed-pos").val()]);
+    });
+    
   </script>
 </body>

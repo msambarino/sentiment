@@ -1,10 +1,16 @@
 function sentimentOrbit(){
+	var orbit;
+	var orbitNodes;
+	var width = 950;
+	var height = 750;	
+	var speed = d3.scale.ordinal().domain(["negative","neutral","positive"]).range([1, 1, 1]);
 	
 	function chart(selection){
 		selection.each(function(data){
+
 			var fillColor = d3.scale.ordinal().domain(["negative","neutral","positive"]).range(["#FB0106", "#3487BE", "#4EC208", "gray"]);
   			var strokeColor = d3.scale.ordinal().domain(["negative","neutral","positive"]).range(["#BB0104", "#2D75A4", "#44A807", "gray"]);
-			var speed = d3.scale.ordinal().domain(["negative","neutral","positive"]).range([1, 1, 1]);
+			
 			
 			var orbitScale = d3.scale.linear().domain([1, 3]).range([3.8, 1.5]).clamp(true);
   			var radiusScale = d3.scale.pow().exponent(5).domain([2,80]).range([2,40]);
@@ -21,7 +27,7 @@ function sentimentOrbit(){
 				"sentiment": "neutral"
 			};
 			
-			var orbitNodes = {
+			orbitNodes = {
 					children:[posCenter, neuCenter, negCenter]
 			};
 			
@@ -31,8 +37,8 @@ function sentimentOrbit(){
 				return {
 					klout: d.klout ? d.klout : 10,
 					sentiment: d.sentiment,
-					x: Math.random() * 1000,
-					y: Math.random() * 500,
+					x: Math.random() * width,
+					y: Math.random() * height,
 					id: i
 				};
 			});
@@ -44,17 +50,20 @@ function sentimentOrbit(){
 //				};
 //			});
 			
-			var orbit = d3.layout.orbit().size([500,500])
+			orbit = d3.layout.orbit().size([500,500])
 				.children(function(d) {return d.children})
   				.revolution(function(d) {return speed(d.sentiment)})
   				.orbitSize(function(d) {return orbitScale(d.depth)})
-  				.speed(0.5)
-  				.mode("atomic")
+  				.speed(1)
+  				.mode("flat")
 				.nodes(orbitNodes);
+				
+			orbit.nodes()[0].x = width/2;
+			orbit.nodes()[0].y = height/2;
 			
 			var svg = d3.select(this).append("svg")
-				.attr("width", 950)
-        		.attr("height", 600);
+				.attr("width", width)
+        		.attr("height", height);
 			
 			
 			d3.select("svg")
@@ -80,8 +89,8 @@ function sentimentOrbit(){
 				  .insert("circle", "g")
 				  .attr("class", "ring")
 				  .attr("r", function(d) {return d.r})
-				  .attr("cx", function(d) {return d.x})
-				  .attr("cy", function(d) {return d.y})
+				  .attr("cx", width/2)
+				  .attr("cy", height/2);
 				  
 			orbit.on("tick", function() {
 			    d3.selectAll("g.node")
@@ -136,7 +145,7 @@ function sentimentOrbit(){
 			var force = d3.layout.force()
 			    .nodes(nodes)
 				.size([500,500])
-			    .friction(0.9)
+			    .friction(0.7)
 			    .charge(function(d){ return -Math.pow(d.klout, 2.0) / 20})
 			    .gravity(0.1)
 			    .alpha(0.1)
@@ -160,6 +169,61 @@ function sentimentOrbit(){
 			
 		});
 	}
+	
+	chart.changeMode = function(_mode){
+	    orbit.mode(_mode)
+	    .nodes(orbitNodes);
+	
+		orbit.nodes()[0].x = width/2;
+		orbit.nodes()[0].y = height/2;
+		  d3.select("g.viz")
+		  .selectAll("circle.ring")
+		  .data(orbit.orbitalRings())
+		    .exit()
+		    .transition()
+		    .remove();
+	
+	    d3.select("g.viz")
+	    .selectAll("circle.ring")
+	    .data(orbit.orbitalRings())
+	    .enter()
+	    .insert("circle", "g")
+	    .attr("class", "ring");
+	    
+	    d3.selectAll("circle.ring")
+	    .attr("r", function(d) {return d.r})
+	    .attr("cx", width/2)
+	    .attr("cy", height/2);
+	};
+	
+	chart.changeRadius = function(radius){
+		orbit.size([radius, radius]).nodes(orbitNodes);
+		
+		orbit.nodes()[0].x = width/2;
+		orbit.nodes()[0].y = height/2;
+		  d3.select("g.viz")
+		  .selectAll("circle.ring")
+		  .data(orbit.orbitalRings())
+		    .exit()
+		    .transition()
+		    .remove();
+	
+	    d3.select("g.viz")
+	    .selectAll("circle.ring")
+	    .data(orbit.orbitalRings())
+	    .enter()
+	    .insert("circle", "g")
+	    .attr("class", "ring");
+	    
+	    d3.selectAll("circle.ring")
+	    .attr("r", function(d) {return d.r})
+	    .attr("cx", width/2)
+	    .attr("cy", height/2);
+	};
+	
+	chart.changeSpeed = function(speeds){
+		speed.range(speeds);
+	};
 	
 	return chart;
 }
