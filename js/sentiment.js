@@ -3,7 +3,12 @@ function sentimentOrbit(){
 	var orbitNodes;
 	var width = 950;
 	var height = 750;	
-	var speed = d3.scale.ordinal().domain(["negative","neutral","positive"]).range([1, 1, 1]);
+	var speed = d3.scale.ordinal().domain(["negative","neutral","positive"]);
+	var sentimentCenter = d3.scale.ordinal().domain(["positive","neutral","negative"]);
+	var speeds = [1,1,1];
+	var centers = [0,1,2]
+	var orbitRadius = 500;
+	var mode = "flat";
 	
 	function chart(selection){
 		selection.each(function(data){
@@ -11,11 +16,13 @@ function sentimentOrbit(){
 			var fillColor = d3.scale.ordinal().domain(["negative","neutral","positive"]).range(["#FB0106", "#3487BE", "#4EC208", "gray"]);
   			var strokeColor = d3.scale.ordinal().domain(["negative","neutral","positive"]).range(["#BB0104", "#2D75A4", "#44A807", "gray"]);
 			
+			speed.range(speeds);
+			sentimentCenter.range(centers)
 			
 			var orbitScale = d3.scale.linear().domain([1, 3]).range([3.8, 1.5]).clamp(true);
   			var radiusScale = d3.scale.pow().exponent(5).domain([2,80]).range([2,40]);
 			  
-			var sentimentCenter = d3.scale.ordinal().domain(["positive","neutral","negative"]).range([0,1,2]);
+
 			
 			var posCenter = {
 				"sentiment": "positive"
@@ -50,12 +57,12 @@ function sentimentOrbit(){
 //				};
 //			});
 			
-			orbit = d3.layout.orbit().size([500,500])
+			orbit = d3.layout.orbit().size([orbitRadius,orbitRadius])
 				.children(function(d) {return d.children})
   				.revolution(function(d) {return speed(d.sentiment)})
   				.orbitSize(function(d) {return orbitScale(d.depth)})
   				.speed(1)
-  				.mode("flat")
+  				.mode(mode)
 				.nodes(orbitNodes);
 				
 			orbit.nodes()[0].x = width/2;
@@ -224,6 +231,30 @@ function sentimentOrbit(){
 	chart.changeSpeed = function(speeds){
 		speed.range(speeds);
 	};
+	
+	chart.orbitRadius = function(value) {
+    	if (!arguments.length) return orbitRadius;
+    	orbitRadius = value;
+    	return chart;
+  	};
+	  
+	chart.nodeSpeeds = function(value) {
+    	if (!arguments.length) return speeds;
+    	speeds = value;
+    	return chart;
+  	};
+	  
+	chart.mode = function(value) {
+    	if (!arguments.length) return mode;
+    	mode = value;
+    	return chart;
+  	};
+	  
+	chart.positions = function(value) {
+    	if (!arguments.length) return centers;
+    	centers = value;
+    	return chart;
+  	};
 	
 	return chart;
 }
