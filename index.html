@@ -13,7 +13,32 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- end CSS-->
+  <style>
+
+  #viz, svg {
+    width: 1000px;
+    height: 1000px;
+  }
+
+  text {
+    pointer-events: none;
+  }
+
+  #buttons {
+    position: absolute;
+    top:0;
+    left:0;
+  }
+
+  circle.ring {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    stroke-opacity: .15;
+
+  }
   
+</style>
 </head>
 <body>
   <div id="container" class="container">
@@ -21,7 +46,7 @@
     <h1 align="center">Visualizando Sentimiento</h1>
     </header>
     <div id="main" role="main">
-      <div id="sentiment-1000" align="center"> 
+      <div id="sentiment" align="center"> 
         <INPUT TYPE=BUTTON OnClick="chart.turnOffNeutrals();" VALUE="turn off neutrals"> 
       </div>
       <h6 align="left">Key</h6>
@@ -40,14 +65,13 @@
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
   <script src="js/CustomTooltip.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="js/libs/d3.layout.orbit.js"></script>
   <script src="js/sentiment.js"></script>
   <script>
-    var chart = sentimentChart()
-        .width(950)
-        .height(500);
-    d3.json("data/sentiment_data_new.json", function(error, data){
-      d3.select("#sentiment-1000")
-        .datum(data)
+    var chart = sentimentOrbit();
+    d3.json("data/data.json", function(error, data){
+      d3.select("#sentiment")
+        .datum(data.data)
         .call(chart);
     });
   </script>

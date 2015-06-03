@@ -1,0 +1,2871 @@
+{
+	"header": {
+		"a": 1
+	},
+	"data": {
+		"name": "root",
+		"positive": 51,
+		"negative": 102,
+		"neutral": 204,
+		"klout": 0,
+		"sentiment": "none",
+		"nodes": [
+			{
+				"klout": 80,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 15,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 29,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 29,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 29,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 29,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 29,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 29,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "negative"
+			},
+			{
+				"klout": 42,
+				"sentiment": "negative" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 29,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "neutral"
+			},
+			{
+				"klout": 42,
+				"sentiment": "neutral" 
+			},
+			{
+				"klout": 80,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 15,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 29,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 29,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 29,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 29,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 15,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 29,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 30,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 45,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 60,
+				"sentiment": "positive" 
+			},
+			{
+				"klout": 70,
+				"sentiment": "positive"
+			},
+			{
+				"klout": 42,
+				"sentiment": "positive" 
+			}
+		]
+	}
+}
