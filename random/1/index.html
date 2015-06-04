@@ -67,9 +67,10 @@
   <script src="../../js/sentiment.js"></script>
   <script>
     var chart = sentimentOrbit()
-      .orbitRadius(500)
+      .orbitRadius(100)
       .nodeSpeeds([1,1,1])
-      .mode("flat");
+      .mode("flat")
+      .yForce(0.1);
       
     d3.json("../../data/sentiment_data_new.json", function(error, data){
       d3.select("#sentiment")

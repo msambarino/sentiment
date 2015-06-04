@@ -1,21 +1,26 @@
 function sentimentOrbit(){
 	var orbit;
+	var force;
 	var orbitNodes;
-	var width = 950;
-	var height = 750;	
+	var width = 1000;
+	var height = 800;	
 	var speed = d3.scale.ordinal().domain(["negative","neutral","positive"]);
 	var sentimentCenter = d3.scale.ordinal().domain(["positive","neutral","negative"]);
 	var speeds = [1,1,1];
 	var centers = [0,1,2]
 	var orbitRadius = 500;
 	var mode = "flat";
+	var xForce = 1;
+	var yForce = 1;
+	var gravity = 0.4;
+	var charge = 40;
 	
 	function chart(selection){
 		selection.each(function(data){
 
-			var fillColor = d3.scale.ordinal().domain(["negative","neutral","positive"]).range(["#FB0106", "#3487BE", "#4EC208", "gray"]);
-  			var strokeColor = d3.scale.ordinal().domain(["negative","neutral","positive"]).range(["#BB0104", "#2D75A4", "#44A807", "gray"]);
-			
+			var fillColor = d3.scale.ordinal().domain(["negative","neutral","positive"]).range(["#FB0106", "#3487BE", "#4EC208"]);
+  			var strokeColor = d3.scale.ordinal().domain(["negative","neutral","positive"]).range(["#BB0104", "#2D75A4", "#44A807"]);
+			var sentimentLabel = d3.scale.ordinal().domain([-2,-1,0,1,2]).range(["negative","negative","neutral","positive","positive"]);
 			speed.range(speeds);
 			sentimentCenter.range(centers)
 			
@@ -43,19 +48,16 @@ function sentimentOrbit(){
 			var nodes = orbitNodes.children.concat(data.nodes).map(function(d, i){
 				return {
 					klout: d.klout ? d.klout : 10,
-					sentiment: d.sentiment,
+					name: d.username,
+					followers: d.followers, 
+					following: d.following,
+					sentiment: sentimentLabel(d.rate),
+					url: d.url,
 					x: Math.random() * width,
 					y: Math.random() * height,
 					id: i
 				};
 			});
-			
-//			var links = data.nodes.map(function(d, i){
-//				return {
-//					source: i,
-//					target: sentimentCenter(d.sentiment)
-//				};
-//			});
 			
 			orbit = d3.layout.orbit().size([orbitRadius,orbitRadius])
 				.children(function(d) {return d.children})
@@ -86,8 +88,8 @@ function sentimentOrbit(){
 			d3.selectAll("g.node")
 				  .append("circle")
 				  .attr("r", 10)
-				  .style("fill", "gray")
-				  .style("stroke", function(d) {return strokeColor(d.sentiment);});
+				  .style("fill", "lightgray")
+				  .style("stroke", function(d) {return d.sentiment ? strokeColor(d.sentiment) : "lightgray";});
 			
 			d3.select("g.viz")
 				  .selectAll("circle.ring")
@@ -144,28 +146,23 @@ function sentimentOrbit(){
 			var moveTowardsCenter = function(alpha) {
 			    return function(d){
 					var center = orbitNodes.children[sentimentCenter(d.sentiment)]
-			      d.y = d.y + (center.y - d.y) * (0.1 + 0.02) ;
-			      d.x = d.x + (center.x - d.x) * (0.1 + 0.02) ;
+			      d.y = d.y + (center.y - d.y) * (0.1 + 0.02) * yForce;
+			      d.x = d.x + (center.x - d.x) * (0.1 + 0.02) * xForce;
 			    };
 			  };
 			
-			var force = d3.layout.force()
+			force = d3.layout.force()
 			    .nodes(nodes)
 				.size([500,500])
-			    .friction(0.7)
-			    .charge(function(d){ return -Math.pow(d.klout, 2.0) / 20})
-			    .gravity(0.1)
+			    .friction(0.9)
+			    .charge(function(d){ return -Math.pow(d.klout, 2.0) / charge;})
+			    .gravity(gravity)
 			    .alpha(0.1)
 				.on("tick", function(e){
 					circles
 						.each(moveTowardsCenter(e.alpha))
 						.attr("cx", function(d) { return d.x; })
             			.attr("cy", function(d) { return d.y; });
-						
-//					link.attr('x1', function(d) { return d.source.x; })
-//        				.attr('y1', function(d) { return d.source.y; })
-//        				.attr('x2', function(d) { return d.target.x; })
-//        				.attr('y2', function(d) { return d.target.y; });
 				});
 				
 			force.start();
@@ -255,6 +252,33 @@ function sentimentOrbit(){
     	centers = value;
     	return chart;
   	};
+	  
+	chart.xForce = function(value) {
+    	if (!arguments.length) return xForce;
+    	xForce = value;
+    	return chart;
+  	};
 	
+	chart.yForce = function(value) {
+    	if (!arguments.length) return yForce;
+    	yForce = value;
+    	return chart;
+  	};
+	  
+	chart.gravity = function(value) {
+    	if (!arguments.length) return gravity;
+    	gravity = value;
+		force.gravity(gravity);
+    	return chart;
+  	};
+	
+	chart.charge = function(value) {
+    	if (!arguments.length) return charge;
+    	charge = value;
+		force.charge(function(d){ return -Math.pow(d.klout, 2.0) / charge;});
+		force.start();
+    	return chart;
+  	};
+	  
 	return chart;
 }
