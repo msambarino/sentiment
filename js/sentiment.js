@@ -13,7 +13,10 @@ function sentimentOrbit(){
 	var xForce = 1;
 	var yForce = 1;
 	var gravity = 0.4;
-	var charge = 40;
+	var charge = 30;
+	var image = null;
+	var hideOrbit = true;
+	var hideNodes = true;
 	
 	function chart(selection){
 		selection.each(function(data){
@@ -74,24 +77,35 @@ function sentimentOrbit(){
 				.attr("width", width)
         		.attr("height", height);
 			
+			if (image != null){
+				d3.select("svg")
+					.append("image")
+					.attr("xlink:href", image.url)
+					.attr("x", width/2 - image.width/2)
+					.attr("y", height/2 - image.height/2)
+					.attr("width", image.width)
+					.attr("height", image.height);
+			}
 			
 			d3.select("svg")
 				.append("g")
 				.attr("class", "viz")
-				.attr("transform", "translate(50,50)")
 				  .selectAll("g.node").data(orbit.nodes())
 				  .enter()
 				  .append("g")
 				  .attr("class", "node")
 				  .attr("transform", function(d) {return "translate(" +d.x +"," + d.y+")";});
 			
-			d3.selectAll("g.node")
+			if (!hideNodes){
+				d3.selectAll("g.node")
 				  .append("circle")
 				  .attr("r", 10)
 				  .style("fill", "lightgray")
-				  .style("stroke", function(d) {return d.sentiment ? strokeColor(d.sentiment) : "lightgray";});
+				  .style("stroke", function(d) {return d.sentiment ? strokeColor(d.sentiment) : "lightgray";});	
+			}
 			
-			d3.select("g.viz")
+			if (!hideOrbit){
+				d3.select("g.viz")
 				  .selectAll("circle.ring")
 				  .data(orbit.orbitalRings())
 				  .enter()
@@ -99,7 +113,9 @@ function sentimentOrbit(){
 				  .attr("class", "ring")
 				  .attr("r", function(d) {return d.r})
 				  .attr("cx", width/2)
-				  .attr("cy", height/2);
+				  .attr("cy", height/2);	
+			}
+			
 				  
 			orbit.on("tick", function() {
 			    d3.selectAll("g.node")
@@ -277,6 +293,36 @@ function sentimentOrbit(){
     	charge = value;
 		force.charge(function(d){ return -Math.pow(d.klout, 2.0) / charge;});
 		force.start();
+    	return chart;
+  	};
+	  
+	chart.image = function(value) {
+    	if (!arguments.length) return image;
+    	image = value;
+    	return chart;
+  	};
+	  
+	chart.hideNodes = function(value) {
+    	if (!arguments.length) return hideNodes;
+    	hideNodes = value;
+    	return chart;
+  	};
+	  
+	 chart.hideOrbit = function(value) {
+    	if (!arguments.length) return hideOrbit;
+    	hideOrbit = value;
+    	return chart;
+  	};
+	  
+	chart.width = function(value) {
+    	if (!arguments.length) return width;
+    	width = value;
+    	return chart;
+  	};
+	
+	chart.height = function(value) {
+    	if (!arguments.length) return height;
+    	height = value;
     	return chart;
   	};
 	  
