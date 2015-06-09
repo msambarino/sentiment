@@ -79,7 +79,7 @@
       
     d3.json("../../data/sentiment_data_new.json", function(error, data){
       d3.select("#sentiment")
-        .datum(data.data.neutrals_on)
+        .datum(data.data)
         .call(chart);
     });
     

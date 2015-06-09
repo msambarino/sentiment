@@ -20,16 +20,6 @@
     height: 1000px;
   }
 
-  text {
-    pointer-events: none;
-  }
-
-  #buttons {
-    position: absolute;
-    top:0;
-    left:0;
-  }
-
   circle.ring {
     fill: none;
     stroke: black;
@@ -48,16 +38,9 @@
     <div id="main" role="main">
       <div id="sentiment" align="center"></div>
       <h6 align="left">Key</h6>
-      <div id="scaleKey"></div>
-      <div id="colorKey"></div>
-      <h6 align="left">Links de interés</h6>
-        <ul align="left" >
-          <li><a href="http://www.lexalytics.com/technical-info/sentiment-analysis">¿Cómo se extrae el sentimiento?</a></li>
-          <li><a href="https://app.datasift.com/source/49/sentiment">¿Qué recibimos de Datasift?</a></li>
-        </ul>
-    <footer>
-        <h5>Ejemplo de visualización de sentimiento como una esfera de burbujas utilizando el force layout de D3.js.</h5>
-    </footer>
+              <INPUT TYPE=BUTTON OnClick="chart.toggleNeutrals();" VALUE="Toggle Neutrals">
+      <div id="scaleKey" style=" float:left; margin: 0 1.5%; width: 20%;"></div>
+      <div id="colorKey" style=" float:left; margin: 0 1.5%; width: 20%;"></div>
   </div> <!--! end of #container -->
   
   <script src="../../js/libs/jquery-1.7.2.js"></script>
@@ -80,7 +63,7 @@
       
     d3.json("../../data/sentiment_data_new.json", function(error, data){
       d3.select("#sentiment")
-        .datum(data.data.neutrals_on)
+        .datum(data.data)
         .call(chart);
     });
     
